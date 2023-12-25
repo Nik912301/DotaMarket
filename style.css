@@ -1,0 +1,44 @@
+body {
+	background-image: url("bg-market.jpeg") ;
+	background-size: no-repeat;
+	color: #c2c2c4;
+}
+
+h1{
+	margin-top: 650px;
+	font-size: 120px;
+}
+
+h2{
+	margin-top: 0;
+}
+
+div{
+	margin: 0 100px 0 100px;
+	border-radius: 100px;
+	padding: 100px;
+	background-color: #1a1b20;
+	font-size: 30px;
+}
+
+img {
+	border-radius: 10px;
+}
+
+.gold{
+	margin: 0 5px 0 20px;
+}
+
+.first_product,.second_product,.third_product,.fourth_product,.five_product{
+	margin: 30px 10px 0 0;
+	display: inline-block;
+	border-radius: 20px;
+	padding: 25px;
+	width: 20%;
+	background: #282828;
+}
+
+a {
+	color: #c2c2c4;
+	text-decoration: none;
+}
