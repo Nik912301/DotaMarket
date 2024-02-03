@@ -1,3 +1,5 @@
+
+
 body {
 	background-repeat: no-repeat;
 	background-image: url("bg-market.jpeg") ;
@@ -24,12 +26,28 @@ div {
 	border-right: 1px solid hsla(0,0%,100%,.05);
 }
 
-.main_menu{
+.button_main_menu {
+	border-radius: 0 12px 12px 0;
+	color: #141414;
 	border: azure;
 	margin: 12px;
-	width: 24px;
-	height: 24px;
+	width: 48px;
+	height: 48px;
 	background-color: #222;
+}
+
+.main_menu {
+	display: none;
+	padding: 12px;
+	font-size: 24px;
+	margin-left: 48px;
+	background-color: #121212;
+	top: 0;
+	left: 0;
+	width: 	150px;
+	position: fixed;
+	border: 1px solid hsla(0,0%,100%,.05);
+	border-radius: 0 0 10px 0;
 }
 
 .menu{
@@ -38,6 +56,21 @@ div {
 	padding: 50px 50px 75px 50px;
 	background-color: #181818;
 	font-size: 30px;
+}
+
+.button_main_menu_panel {
+	display: flex;
+	flex-direction: column;
+	border: none;
+}
+
+.button_main {
+	border-style: none;
+	border-radius: 5px;
+	color: #c2c2c4;
+	background-color: #222;
+	height: 30px;
+	margin: 2px;
 }
 
 .left_panel {
@@ -79,14 +112,4 @@ img {
 a {
 	color: #c2c2c4;
 	text-decoration: none;
-}
-
-header {
-  opacity: 0;
-  animation: ani 2.5s forwards;
-}
-
-@keyframes ani {
-  50% {opacity: 0;}
-  100% {opacity: 1;}
 }
